@@ -25,6 +25,5 @@ def find_the_cheese (array)
         found << array.detect{|x| x == cheese}
       end
     end
-    puts found
-    found
+    found.first
 end
