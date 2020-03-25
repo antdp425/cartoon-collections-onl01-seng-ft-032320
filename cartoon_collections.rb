@@ -26,4 +26,5 @@ def find_the_cheese (array)
       end
     end
     puts found
+    found
 end
